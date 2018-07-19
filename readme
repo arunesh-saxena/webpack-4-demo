@@ -1,0 +1,6 @@
+
+npm --mode=something  run js-add 2 3
+
+
+
+npm  run js-add 2 3 mode1=something mode2="2" --mode3 development  --config 'config'

@@ -1,0 +1,43 @@
+{
+  "name": "webpack-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode=development  --config './webpack/webpack.config.js'",
+    "build:dev": "webpack --mode=development --config webpack/webpack.config.js",
+    "build:none": "webpack --mode=none --config webpack/webpack.config.js",
+    "build": "webpack --mode=production --config webpack/webpack.config.js",
+    "js-add": "node add.js 2 3",
+    "js-add2": "node add.js 2 3 --mode=development",
+    "prejs-add1": "echo 'I run before js-add'",
+    "postjs-add1": "echo 'I run after js-add'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.10"
+  }
+}

@@ -1,0 +1,16 @@
+.hello {
+  color: red;
+  width: 300px;
+  height: 210px;
+  background-image: url(/assets/images/1b0d5e6a1f4c80675d0461826c134174.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .hello p {
+    background-color: red; }
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background: blue; }
+
+/*# sourceMappingURL=style.css.map*/
